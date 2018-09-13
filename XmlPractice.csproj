@@ -55,8 +55,15 @@
     <None Include="Files\PracticeSchema2.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="readme.md" />
+    <None Include="Tasks\SchemaFundametals\result_schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Tasks\SchemaFundametals\task.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
     <Content Include="FilesForXslt\Contacts.xml" />
     <Content Include="FilesForXslt\InvoiceForHtml.xml" />
     <Content Include="FilesForXslt\Invoice.xml" />
@@ -76,6 +83,8 @@
     <Content Include="RawXmlPractice1.xml" />
     <Content Include="RawXmlPractice2.xml" />
     <Content Include="FilesForXslt\Penalty.xml" />
+    <Content Include="ResultFiles\.gitignore" />
+    <Content Include="Tasks\SchemaFundametals\result_referencing.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
