@@ -259,9 +259,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-
-
-# Don't commit result files
-ResultFiles/*
-# But keep the result files in the repository
-!ResultFiles/.gitkeep 

@@ -1,0 +1,6 @@
+# ignores all files in this folder
+*
+# ignores all files in subfolders
+*/
+# but not .gitignore
+!.gitignore
