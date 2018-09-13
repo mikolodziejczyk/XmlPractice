@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Invoice>
+  <Id>FS-12-21</Id>
+  <Contact>
+    <Name>John Salesman</Name>
+    <Mail>someone@somewhere.com</Mail>
+  </Contact>
+  <Items>
+    <Item Position="1">
+      <Product>Some product name</Product>
+      <Amount>112</Amount>
+      <Price>12.53</Price>
+      <Note>Some optional note</Note>
+    </Item>
+    <Item Position="2">
+      <Product>Other name</Product>
+      <Amount>53</Amount>
+      <Price>1234.567</Price>
+    </Item>
+  </Items>
+</Invoice>

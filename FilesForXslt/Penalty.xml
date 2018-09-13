@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Penalty>
+  <TenantCode>Babaks</TenantCode>
+  <FullTenantName>Babaks sp. z o.o.</FullTenantName>
+  <PenaltySubject>Not delivering a turnover report in the agreed time.</PenaltySubject>
+  <PenaltyValue>5000</PenaltyValue>
+</Penalty>
+<!--
+Please register a contractual penalty for FullTenantName
+The penalty is issued for: PenaltySubject
+The penalty value is: PenaltyValue
+-->

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Invoice>
+  <Id>FS-12-21</Id>
+  <Items>
+    <Item Position="1">
+      <Product>Some product name</Product>
+      <Amount>12</Amount>
+      <Price>12.53</Price>
+      <Note>Some optional note</Note>
+    </Item>
+    <Item Position="2">
+      <Product>Other name</Product>
+      <Amount>1</Amount>
+      <Price>1.3</Price>
+    </Item>
+  </Items>
+</Invoice>
+<!--
+Create a CSV for items in the form:
+Position;"Product";Amount;Price
+Keep the product name in double quotes.
+Assume that the product name doesn't contain a quote.
+-->

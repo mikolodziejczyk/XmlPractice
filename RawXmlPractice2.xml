@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Order>
+  <Id>123545654356</Id>
+  <DetailsUrl>http://abc.com/3test%20.aspx</DetailsUrl>
+  <Recipient>
+    <NIP>123-456-789</NIP>
+  </Recipient>
+  <Contact>
+    <Phone>124-5434-34</Phone>
+    <EMail>someone@somewhere.com</EMail>
+  </Contact>
+  <Items>
+    <Item Position="1">
+      <Product>Some product name</Product>
+      <Amount>12</Amount>
+      <Price Currency="EUR">12.53</Price>
+      <Note>Some optional note</Note>
+    </Item>
+    <Item Position="2">
+      <Product>Other name</Product>
+      <Amount>1</Amount>
+      <Price Currency="PLN">1.3</Price>
+    </Item>
+  </Items>
+</Order>
+<!--
+Creating a schema with namespace
+
+1. Create a corresponding schema for the document. The schema should use the namespace.
+The namespace should be the schema location.
+Make the VS use the schema (w/o xsi).
+
+2. Add schema for the main Order element, this should be the single root element allowed. Define it as a local type.
+
+3. OOB types
+	a. add schema for the  Id element, it should allow 64 integers
+	b. add schema for the DetailsUrl element, enter a url which should contain a space (how to encode)
+
+4. Creating a custom complex type
+Add a custom type named "Identification", that should allow any of the tags (exclusively) NIP, Pesel, Regon. Add to the schema the recipient element of this type.
+
+5. Create a custom complex type, any elements in any order
+Add a custom type named "Contact", that should allow any of the tags (Phone, EMail) in any order (non-exclusively but 1 at most) .
+
+6. Create a schema part that represents Items collection. The items collection can take 1+ Item elements.
+
+7. Create a schema part (global complex type) that represents a single item (ommit Currency in Price at this point), along with the Position attribute. The attribute should allow only integers greater than 1 (use an OOB type)
+
+8. Create a schema part that represents the Price tag with Currency attribute
+
+9. Move the tags from Item complex type to a group for potential reuse (reference the tags from the group in the type representing an item).
+-->

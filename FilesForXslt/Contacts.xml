@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contract>
+  <ContractCode>ACB-123</ContractCode>
+  <Contacts>
+  <Contact status="primary">
+    <Name>John Doe</Name>
+    <EMail>john.doe@nowhere.com</EMail>
+  </Contact>
+  <Contact status="disabled">
+    <Name>Jane Smith</Name>
+    <EMail></EMail>
+  </Contact>
+  <Contact>
+    <Name>James Smith</Name>
+  </Contact>
+  </Contacts>
+</Contract>

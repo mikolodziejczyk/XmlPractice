@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Readings xmlns="www.global-solutions.pl/MeterState">
+  <Reading>
+    <MeterCode>ABC-123</MeterCode>
+    <PreviousReading>120.500</PreviousReading>
+    <CurrentReading>150.800</CurrentReading>
+  </Reading>
+  <Reading>
+    <MeterCode>DEF-345</MeterCode>
+    <PreviousReading>20</PreviousReading>
+    <CurrentReading>50</CurrentReading>
+  </Reading>
+</Readings>

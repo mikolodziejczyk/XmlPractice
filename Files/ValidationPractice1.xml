@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:\\C:\VisualStudio\Learn\General\XmlPractice\Schemas\Practice1Schema.xsd"
+         currency="EUR" series="A1235" number="FS/2015/1234">
+  <IssueDate>2015-03-21</IssueDate>
+  <RecipientName>Some name</RecipientName>
+  <TotalAmount>123.45</TotalAmount>
+</Invoice>

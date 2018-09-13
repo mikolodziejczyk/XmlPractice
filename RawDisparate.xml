@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="file://nowhere">
+  <DateItem>2015-04-22</DateItem>
+  <DateItem>2013-02-12</DateItem>
+  <DecimalItem>2342.43</DecimalItem>
+  <StringItem>Some string</StringItem>
+  <DecimalItem>124.3</DecimalItem>
+</Items>
+<!--
+Create a schema (w/o namespace) that allows such a structure.
+The Items collection should allow any order and any number of these tags (each tags represents a different item type with different content allowed).
+-->

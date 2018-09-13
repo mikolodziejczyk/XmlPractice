@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<class id="12" rating="2.43" code="AB-22">
+  <name>Some name of the class</name>
+  <details>
+    <faculty>Some faculty name</faculty>
+  </details>
+  <students>
+    <student rollno="393">
+      <firstname>Dinkar</firstname>
+      <lastname>Kad</lastname>
+      <nickname>Dinkar</nickname>
+      <marks>85</marks>
+    </student>
+    <student rollno="493">
+      <firstname>Vaneet</firstname>
+      <lastname>Gupta</lastname>
+      <nickname>Vinni</nickname>
+      <marks>95</marks>
+    </student>
+    <student rollno="593">
+      <firstname>Jasvir</firstname>
+      <lastname>Singh</lastname>
+      <nickname>Jazz</nickname>
+      <marks>90</marks>
+    </student>
+  </students>
+</class>
